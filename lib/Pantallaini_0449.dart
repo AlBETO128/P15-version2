@@ -28,6 +28,12 @@ class PantallaIni_0449 extends StatelessWidget {
               }, //fin onPressed
               child: const Text('Mover a Panatalla2'),
             ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/Pantalla3_0449');
+              }, //fin onPressed
+              child: const Text('Mover a Panatalla3'),
+            )
           ], //fin de children
         ),
       ),

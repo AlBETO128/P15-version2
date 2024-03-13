@@ -13,17 +13,16 @@ class Pantalla1_0449 extends StatelessWidget {
         title: Text('Pantalla1 Carbajal_0449'),
       ),
       body: Center(
-        child: Card(
-          color: Colors.yellow,
-          elevation: 10,
-          shadowColor: Colors.red,
-          child: Padding(
-            padding: EdgeInsets.all(16),
-            child: Text(
-              'Tarjeta 2 Carbajal',
-              style: TextStyle(
-                  fontSize: 30, fontFamily: "monotype", color: Colors.red),
-            ),
+        child: Container(
+          color: Color(0xffffeebc),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Alberto C.-0449',
+            style: TextStyle(fontSize: 30),
           ),
         ),
       ),
